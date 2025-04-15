@@ -1,29 +1,21 @@
 import "./App.css";
+import Card from "./components/Card";
 
 function App() {
+  let myObj = {
+    userName: "vivek",
+    age: 26,
+  };
+
   return (
     <>
       <h1 className="text-6xl text-amber-300 font-bold underline mb-4">
         I am react
       </h1>
-      <div className="max-w-xs p-6 rounded-md shadow-md bg-black">
-        <img
-          src="https://images.pexels.com/photos/1615776/pexels-photo-1615776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          alt=""
-          className="object-cover object-center w-full rounded-md h-72 bg-gray-500"
-        />
-        <div className="mt-6 mb-2">
-          <span className="block text-sm font-medium font-mono tracking-widest uppercase text-indigo-400">
-            Title
-          </span>
-          <h2 className="text-xl font-semibold tracking-wide">
-            Lorem ipsum dolor
-          </h2>
-        </div>
-        <p className="text-gray-300">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio
-          tempora ipsum soluta amet
-        </p>
+      <div className="flex">
+        <Card username="Ram" btnText="click me" />
+        <Card username="Krishna" />
+        <Card username="Krishna" />
       </div>
     </>
   );
