@@ -6,7 +6,11 @@ function App() {
   let [counter, setCounter] = useState(3);
 
   function addValue() {
-    setCounter(counter + 1);
+    setCounter(prevCounter => prevCounter + 1);
+    setCounter(prevCounter => prevCounter + 1);
+    setCounter(prevCounter => prevCounter + 1);
+    setCounter(prevCounter => prevCounter + 1);
+    setCounter(prevCounter => prevCounter + 1);
     // counter = counter + 2;
     // console.log("clicked", counter);
   }
