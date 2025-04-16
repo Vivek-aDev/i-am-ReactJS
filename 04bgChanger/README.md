@@ -1,12 +1,31 @@
-# React + Vite
+# 🎨 Background Color Changer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive React app that lets users change the background color of the entire screen with a single click. Great for beginners learning how to manage dynamic styles using state in React.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🎯 Fullscreen background color changer
+- 🟠 Buttons to switch between predefined colors
+- ⚛️ State-based styling using React hooks
+- 📱 Responsive layout with fixed bottom controls
+- 💅 Styled with Tailwind CSS for a modern UI
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React** – Functional components with `useState`
+- **Vite** – Fast build and dev server
+- **Tailwind CSS** – Utility-first styling
+- **GitHub Actions** – Automated deployment to GitHub Pages
+
+---
+
+## 📂 Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/bg-color-changer.git
+cd bg-color-changer
