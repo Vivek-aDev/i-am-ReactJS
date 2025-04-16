@@ -11,7 +11,7 @@ A curated collection of simple yet powerful React mini-projects — perfect for 
 
 - React Hooks: `useState`, `useEffect`, `useCallback`, `useRef`
 - Features: Clipboard copy, dynamic password generation
-- [View Project](./password-generator)
+- [View Project](./05passwordGenerator)
 
 ---
 
@@ -20,7 +20,7 @@ A curated collection of simple yet powerful React mini-projects — perfect for 
 
 - React Hook: `useState` with multiple functional updates
 - Features: Add+, Subtract, Reset
-- [View Project](./counter-app)
+- [View Project](./02counter)
 
 ---
 
@@ -29,7 +29,7 @@ A curated collection of simple yet powerful React mini-projects — perfect for 
 
 - React Hook: `useState`
 - Features: Dynamic background via button clicks
-- [View Project](./bg-color-changer)
+- [View Project](./04bgChanger)
 
 ---
 
