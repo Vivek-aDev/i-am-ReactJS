@@ -6,6 +6,15 @@ A curated collection of simple yet powerful React mini-projects — perfect for 
 
 ## 📁 Projects
 
+### 💸 Currency Converter  
+> Convert currencies in real time with a clean UI and live exchange rates. Includes swap feature and glassmorphism-styled interface.
+
+- React Hooks: `useState` + custom `useCurrencyInfo()`  
+- Features: Currency selection, conversion, swap, and a reusable `InputBox` component  
+- [View Project](./06currencyConverter)
+
+---
+
 ### 🔑 Password Generator  
 > Generate strong, customizable passwords using a length slider and toggleable options for numbers and symbols.
 
