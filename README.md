@@ -6,6 +6,16 @@ A curated collection of simple yet powerful React mini-projects — perfect for 
 
 ## 📁 Projects
 
+### 🔗 React Router App  
+> A multi-page React app with nested routes, dynamic user pages, and live GitHub data loading using React Router v6.
+
+- React Router: `createBrowserRouter`, `createRoutesFromElements`, `useLoaderData`, `<Outlet />`  
+- Pages & Routes: Home `/`, About `/about`, Contact `/contact`, User `/:userId`, GitHub `/github`  
+- Features: Nested layout (`<Layout />`), dynamic route params, loader for API call, Tailwind-styled UI  
+- [View Project](./07reactRouter)
+
+---
+
 ### 💸 Currency Converter  
 > Convert currencies in real time with a clean UI and live exchange rates. Includes swap feature and glassmorphism-styled interface.
 
@@ -39,6 +49,18 @@ A curated collection of simple yet powerful React mini-projects — perfect for 
 - React Hook: `useState`
 - Features: Dynamic background via button clicks
 - [View Project](./04bgChanger)
+
+---
+
+## 📚 Concepts Covered
+
+| Project                | React Hooks                          | Other Concepts                                     |
+|------------------------|---------------------------------------|----------------------------------------------------|
+| Password Generator     | `useState`, `useEffect`, `useRef`, `useCallback` | Clipboard API, Dynamic password logic             |
+| Counter App            | `useState`                            | Functional updates, batching                       |
+| Background Color Changer | `useState`                          | Dynamic inline styles                              |
+| Currency Converter     | `useState`, Custom Hook               | Fetching API data, Component reuse, Glassmorphism UI |
+| React Router App       | `useLoaderData`, Routing hooks        | Nested routing, Dynamic params, Loader for fetch   |
 
 ---
 

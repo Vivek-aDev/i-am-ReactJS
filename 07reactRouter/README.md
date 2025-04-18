@@ -1,12 +1,61 @@
-# React + Vite
+# 📦 React Router DOM Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A multi-page React application using **React Router v6** to demonstrate modern routing, nested layouts, dynamic routes, and data fetching via loaders. Includes animated GitHub profile integration using live API data.
 
-Currently, two official plugins are available:
+---
+### 📸 Previews
+![](2025-04-19-02-46-06.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### ✨ Features
 
-## Expanding the ESLint configuration
+- ✅ **Nested Layouts** with `Outlet`
+- ✅ **Dynamic Routing** using `:userId`
+- ✅ **Data Fetching** using `loader` for GitHub API
+- ✅ **Component-Based Design**: Header, Footer, Pages
+- ✅ **Responsive Navbar** with `NavLink` active styling
+- ✅ **API**: Fetches GitHub user data via `https://api.github.com/users/Vivek-aDev`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### 📚 Concepts Covered
+
+- 🧩 React Router v6 Routing System
+- 🧵 Nested Routes with Layout Wrappers
+- ⚙️ Data Loading via `loader` Functions
+- 🧠 useLoaderData Hook for async data
+- 🎨 Active Navigation Styling using `NavLink`
+- 🔀 Route Params (`/user/:userId`) and dynamic UI
+- 🔧 Project Structuring and File Organization
+- 🌐 API Integration using GitHub REST API
+- 🧱 Component Reusability and Separation of Concerns
+
+---
+
+### 🔍 Pages & Routes
+
+| Route         | Component   | Description                     |
+| ------------- | ----------- | ------------------------------- |
+| `/`           | Home        | Landing page                    |
+| `/about`      | About       | About the application           |
+| `/contact`    | Contact     | Contact details or form         |
+| `/user/:id`   | User        | Dynamic route for user profiles |
+| `/github`     | Github      | Live GitHub API profile card    |
+
+---
+
+### 📦 Packages Used
+
+- **react**
+- **react-dom**
+- **react-router-dom**
+- **vite**
+- **tailwindcss**
+
+---
+
+### 🔧 Local Setup
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
