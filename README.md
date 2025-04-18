@@ -66,10 +66,17 @@ A curated collection of simple yet powerful React mini-projects — perfect for 
 
 ## 🛠️ Tech Stack
 
-- ⚛️ React (with Hooks)
-- ⚡ Vite (for blazing-fast builds)
-- 💨 Tailwind CSS (optional for styling)
-- 🚀 GitHub Actions (CI/CD pipeline for each project)
+| Technology     | Purpose                                                      |
+|----------------|--------------------------------------------------------------|
+| ⚛️ React       | Core library for building UI components                      |
+| ⚡ Vite         | Next-gen front-end tooling for ultra-fast development       |
+| 💨 Tailwind CSS | Utility-first CSS framework for custom styling              |
+| 🌐 React Router | Client-side routing (used in the `reactrouter` project)     |
+| 🪝 React Hooks  | `useState`, `useEffect`, `useRef`, `useCallback`, etc.      |
+| 🔁 Custom Hooks | Reusable logic abstraction (used in `currency-converter`)   |
+| 📦 npm          | Package manager for installing dependencies                 |
+| 📁 GitHub       | Hosting the code and project pages                          |
+| 🌐 Fetch API    | Calling external APIs (like GitHub API in `reactrouter`)    |
 
 ---
 
@@ -77,11 +84,11 @@ A curated collection of simple yet powerful React mini-projects — perfect for 
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/react-mini-projects.git
-cd i-am-reactjs
+git clone https://github.com/Vivek-aDev/i-am-ReactJS.git
+cd i-am-ReactJS
 
 # 2. Navigate to a specific project
-cd password-generator  # or any other project folder
+cd 07reactRouter  # or any other project folder
 
 # 3. Install dependencies
 npm install
