@@ -1,12 +1,55 @@
-# React + Vite
+# 🙋‍♂️ React Context API Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React project demonstrating the power of **Context API** for managing user authentication state across components without prop drilling. This app includes a basic login form and profile view, showcasing how data can be shared using context.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- ✅ Login with username and password (no backend)
+- ✅ Share authenticated user data across components
+- ✅ Conditional rendering based on login state
+- ✅ Clean and minimal Context API setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 Concepts Covered
+
+| Concept             | Description                                                             |
+|---------------------|-------------------------------------------------------------------------|
+| `Context API`        | Create global state accessible to multiple components                   |
+| `useContext` Hook    | Access and manipulate context state                                     |
+| `useState` Hook      | Manage local state for inputs and user data                            |
+| Conditional Rendering| Show/hide components based on authentication status                    |
+| Provider Component   | Wrap the app with context provider to share state                      |
+
+---
+
+## 📂 Pages & Routes
+
+- **Login** – Enter username and password
+- **Profile** – View logged-in user details (conditionally rendered)
+
+> 📌 This project does not use routing (React Router), and instead focuses on shared state.
+
+---
+
+## 📦 Packages Used
+
+- **React** – JavaScript library for building user interfaces
+- **Vite** – For fast builds and development environment
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/Vivek-aDev/i-am-ReactJS.git
+cd react-mini-projects/08miniContext
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
