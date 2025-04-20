@@ -1,18 +1,44 @@
 # 🚀 React Mini Projects Collection
 
-## 📚 About This Collection
+>## 📚 About This Collection
 
 Welcome to my **React Mini Projects Collection**! 🎉
 
 This repository showcases a variety of **React** mini-projects that I've created to explore core web development concepts, improve my React skills, and build dynamic web applications. These projects range from simple interactive components to real-world applications using **React**, **React Router**, **Vite**, and **Tailwind CSS**. They cover essential aspects such as **state management**, **hooks**, **routing**, **styling**, and **API integration**. 
 
 Whether you’re a beginner or looking to improve your skills with hands-on practice, these projects are a great way to get started. Each project is focused on learning a specific concept and comes with its own set of challenges, helping me grow as a front-end developer.
+<br>
+<br>
 
----
+># 📁 Projects
 
-## 📁 Projects
 
-### 🔗 React Router App  
+## 🔦 Highlight: 09themeSwitcher 🫵🏻[View Project](./09themeSwitcher)
+
+A polished **Theme Switcher** project built with Context API and Tailwind CSS. Users can toggle between **light and dark** themes, and the preference is applied using dynamic Tailwind class manipulation.
+
+### 🧠 Concepts in this project
+
+- `useState`, `useEffect`
+- Context API with `useContext`
+- Custom hook: `useTheme()`
+- Tailwind-based dynamic theming
+- Responsive UI layout with flex and utility classes
+
+### 📦 Features
+
+- Toggle switch to change themes  
+- Real-time DOM updates using Tailwind class toggling  
+- Clean UI with card layout and rating system  
+
+### 🚀 Usage
+
+1. Start the dev server and open the project in browser.  
+2. Toggle the switch to see theme changes instantly.
+
+
+
+## 🔗 React Router App  
 > A multi-page React app with nested routes, dynamic user pages, and live GitHub data loading using React Router v6.
 
 - React Router: `createBrowserRouter`, `createRoutesFromElements`, `useLoaderData`, `<Outlet />`  
