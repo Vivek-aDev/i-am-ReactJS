@@ -1,12 +1,37 @@
-# React + Vite
+# ✅ React Todo App with Context API + LocalStorage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and functional Todo App built using **React**, **Tailwind CSS**, and **React Context API**. It allows users to **add**, **edit**, **complete**, and **delete** tasks — with persistence via **localStorage**.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add new todos
+- Edit existing todos
+- Mark todos as completed
+- Delete todos
+- Automatically saves and loads from `localStorage`
+- Visual feedback with conditional styling
+- Clean and responsive UI
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔧 Tech Stack
+
+| Technology     | Usage                                 |
+|----------------|----------------------------------------|
+| ⚛️ React       | Frontend framework                     |
+| 💨 Tailwind CSS | Utility-first CSS styling              |
+| 🧠 React Hooks  | `useState`, `useEffect`, `useContext` |
+| 🌐 Context API | Global state management                |
+| 💾 localStorage | Persist todos across page reloads      |
+
+---
+
+## 🧠 Concepts Covered
+
+- State management with `useState`
+- Side effects with `useEffect`
+- Global state using Context API
+- LocalStorage for data persistence
+- Component-driven UI architecture
+- Controlled input components
+- Conditional rendering and styling

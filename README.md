@@ -12,30 +12,30 @@ Whether you’re a beginner or looking to improve your skills with hands-on prac
 
 ># 📁 Projects
 
+### ✅ Todo App  
+> A fully functional Todo app with local storage sync, editable items, completion toggling, and component-based architecture using React Context API.
 
-## 🔦 Highlight: 09themeSwitcher 🫵🏻[View Project](./09themeSwitcher)
+- **React Hooks**: `useState`, `useEffect`, `useContext`, custom context
+- **Features**:
+  - Add, edit, delete todos
+  - Toggle complete/incomplete with checkbox
+  - Real-time saving to `localStorage`
+  - Context API for global state management
+  - Styled with Tailwind, responsive layout
+- [View Project](./10todoContextLocal)
 
-A polished **Theme Switcher** project built with Context API and Tailwind CSS. Users can toggle between **light and dark** themes, and the preference is applied using dynamic Tailwind class manipulation.
 
-### 🧠 Concepts in this project
+### 🌓 React Theme Toggle  
+> A minimal and elegant project to implement Dark/Light mode using React Context API and Tailwind CSS. Theming is handled dynamically at the root level with smooth UI.
 
-- `useState`, `useEffect`
-- Context API with `useContext`
-- Custom hook: `useTheme()`
-- Tailwind-based dynamic theming
-- Responsive UI layout with flex and utility classes
-
-### 📦 Features
-
-- Toggle switch to change themes  
-- Real-time DOM updates using Tailwind class toggling  
-- Clean UI with card layout and rating system  
-
-### 🚀 Usage
-
-1. Start the dev server and open the project in browser.  
-2. Toggle the switch to see theme changes instantly.
-
+- **React Hooks**: `useState`, `useEffect`, `useContext`
+- **Concepts**: Context API, custom hook, Tailwind dark mode variants
+- **Features**:
+  - Toggle between light & dark themes
+  - Context-based global state
+  - Auto HTML class updates
+  - Stylish card UI with Tailwind
+- [View Project](./09themeSwitcher)
 
 
 ## 🔗 React Router App  
